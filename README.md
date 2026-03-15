@@ -38,5 +38,5 @@ pytest tests/ -v
 | DELETE | /tasks/<id> | Elimina una task |
 
 ## API pubblica
-URL: https://task-manager-tester-mezz.onrender.com
+URL: https://task-manager-tester-mezz.onrender.com <br>
 Swagger UI: https://task-manager-tester-mezz.onrender.com/docs
