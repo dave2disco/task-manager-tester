@@ -1,0 +1,31 @@
+name: Run Tests
+
+# Esegui la pipeline ad ogni push su qualsiasi branch
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Scarica il codice del repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Installa Python 3.13
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      # 3. Installa le dipendenze
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # 4. Esegui i test
+      - name: Run tests
+        run: pytest tests/ -v
