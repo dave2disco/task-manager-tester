@@ -10,7 +10,12 @@ def create_app():
 
     # Percorso assoluto per il database
     basedir = os.path.abspath(os.path.dirname(__file__))
-    db_path = os.path.join(basedir, "..", "instance", "tasks.db")
+    instance_path = os.path.join(basedir, "..", "instance")
+    
+    # Crea la cartella instance/ se non esiste
+    os.makedirs(instance_path, exist_ok=True)
+    
+    db_path = os.path.join(instance_path, "tasks.db")
     app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{db_path}"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
