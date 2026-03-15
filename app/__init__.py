@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_swagger_ui import get_swaggerui_blueprint
@@ -6,16 +7,18 @@ db = SQLAlchemy()
 
 def create_app():
     app = Flask(__name__, static_folder="../static")
-    app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///tasks.db"
+
+    # Percorso assoluto per il database
+    basedir = os.path.abspath(os.path.dirname(__file__))
+    db_path = os.path.join(basedir, "..", "instance", "tasks.db")
+    app.config["SQLALCHEMY_DATABASE_URI"] = f"sqlite:///{db_path}"
     app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
     db.init_app(app)
 
-    # Registra le routes API
     from app.routes import tasks_bp
     app.register_blueprint(tasks_bp)
 
-    # Registra Swagger UI su /docs
     swagger_bp = get_swaggerui_blueprint(
         "/docs",
         "/static/swagger.json",
