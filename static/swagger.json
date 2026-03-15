@@ -1,0 +1,96 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Task Manager API",
+    "version": "1.0.0",
+    "description": "API per gestire task - progetto portfolio"
+  },
+  "paths": {
+    "/tasks/": {
+      "get": {
+        "summary": "Lista tutte le task",
+        "responses": {
+          "200": { "description": "Lista task" }
+        }
+      },
+      "post": {
+        "summary": "Crea una nuova task",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title":       { "type": "string" },
+                  "description": { "type": "string" },
+                  "done":        { "type": "boolean" }
+                },
+                "required": ["title"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": { "description": "Task creata" },
+          "400": { "description": "Title mancante" }
+        }
+      }
+    },
+    "/tasks/{id}": {
+      "get": {
+        "summary": "Recupera una task per ID",
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": { "type": "integer" }
+        }],
+        "responses": {
+          "200": { "description": "Task trovata" },
+          "404": { "description": "Task non trovata" }
+        }
+      },
+      "put": {
+        "summary": "Modifica una task",
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": { "type": "integer" }
+        }],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "title":       { "type": "string" },
+                  "description": { "type": "string" },
+                  "done":        { "type": "boolean" }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": { "description": "Task aggiornata" },
+          "404": { "description": "Task non trovata" }
+        }
+      },
+      "delete": {
+        "summary": "Elimina una task",
+        "parameters": [{
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "schema": { "type": "integer" }
+        }],
+        "responses": {
+          "200": { "description": "Task eliminata" },
+          "404": { "description": "Task non trovata" }
+        }
+      }
+    }
+  }
+}
