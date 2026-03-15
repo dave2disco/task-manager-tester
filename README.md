@@ -1,7 +1,5 @@
 # Task Manager Tester
 
-![Tests](https://github.com/TUO_USERNAME/task-manager-tester/actions/workflows/test.yml/badge.svg)
-
 Un progetto portfolio che dimostra competenze di **software testing** su una REST API Python.
 
 ## Stack tecnologico
