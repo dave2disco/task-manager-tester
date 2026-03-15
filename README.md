@@ -36,3 +36,7 @@ pytest tests/ -v
 | POST | /tasks/ | Crea una task |
 | PUT | /tasks/<id> | Modifica una task |
 | DELETE | /tasks/<id> | Elimina una task |
+
+## API pubblica
+URL: https://task-manager-tester-mezz.onrender.com
+Swagger UI: https://task-manager-tester-mezz.onrender.com/docs
