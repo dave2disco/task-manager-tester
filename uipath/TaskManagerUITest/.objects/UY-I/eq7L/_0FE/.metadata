@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Task Manager API",
+  "Type": "Screen",
+  "Id": "_0FEEMkMn0qlT40orhY_yw",
+  "Reference": "cMfG_onpPkaPqNMtJiZVbA/_0FEEMkMn0qlT40orhY_yw",
+  "ParentRef": "cMfG_onpPkaPqNMtJiZVbA/eq7LkVC17Umphp-hEteP4Q",
+  "Created": "2026-03-15T10:35:12.4023621Z",
+  "Updated": "2026-03-15T10:35:12.4023621Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

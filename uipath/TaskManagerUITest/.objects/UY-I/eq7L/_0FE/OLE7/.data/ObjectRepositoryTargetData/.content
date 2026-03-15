@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EcKKM7KWXUqEpLg5UE85qQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/docs" DesignTimeRectangle="257, 461, 80, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='operations-default-post_tasks_' tag='SPAN' type='' class='opblock-summary-method' aaname='POST' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='POST' /&gt;" Guid="7fe2ed6f-d2cf-4765-a5f8-244df2312b96" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Task Manager API' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="257, 461, 1376, 28" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='operations-default-post_tasks_' tag='BUTTON' type='' class='opblock-summary-control' aaname='POST/tasks/Crea una nuova task' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='POST&amp;#xA;/tasks/&amp;#xA;Crea una nuova task' /&gt;" Guid="f1eaea08-81ff-4864-9b31-3c69191542cd" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="caea0c30f8ab6e21f18bb2aa22785892.jpg" xmlns="">0946OsWrql0yT6HJUn9uFeA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

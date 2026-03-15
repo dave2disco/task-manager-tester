@@ -1,0 +1,6 @@
+{
+  "Name": "TaskManagerUITest",
+  "ProjectType": "Process",
+  "Description": "UI automation test for Task Manager Swagger",
+  "MainFile": "Main.xaml"
+}

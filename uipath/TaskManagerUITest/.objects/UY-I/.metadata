@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Task Manager API",
+  "Type": "App",
+  "Id": "UY-IL6YVzEW5KJYcSJDwkg",
+  "Reference": "cMfG_onpPkaPqNMtJiZVbA/UY-IL6YVzEW5KJYcSJDwkg",
+  "Created": "2026-03-15T10:35:12.2804555Z",
+  "Updated": "2026-03-15T10:35:12.2804555Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

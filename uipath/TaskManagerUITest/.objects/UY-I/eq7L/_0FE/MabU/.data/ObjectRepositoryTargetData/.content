@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kyw3na-Y7kG7VsrpKawl0g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/docs" DesignTimeRectangle="1540, 505, 110, 30" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Try it out ' parentid='operations-default-post_tasks_' tag='BUTTON' /&gt;" Guid="cc630ded-b636-4483-8f3e-ce1360fc3544" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Task Manager API' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a630ff5261f89bc1b85a4280ccf77904.jpg" xmlns="">0XTU2N4UUVke46l1srQWDnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

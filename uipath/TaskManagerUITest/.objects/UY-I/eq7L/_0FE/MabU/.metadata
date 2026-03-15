@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Try it out",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "MabUPIg_00y73xtfjFUI-g",
+  "Reference": "cMfG_onpPkaPqNMtJiZVbA/MabUPIg_00y73xtfjFUI-g",
+  "ParentRef": "cMfG_onpPkaPqNMtJiZVbA/_0FEEMkMn0qlT40orhY_yw",
+  "Created": "2026-03-15T10:37:42.9582445Z",
+  "Updated": "2026-03-15T10:37:42.9582445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

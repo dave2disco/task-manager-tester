@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d5VvYSGXbUekgSrHwc9CjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="127.0.0.1/docs" DesignTimeRectangle="252, 419, 1418, 736" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='responses-inner' parentid='operations-default-post_tasks_' tag='DIV' /&gt;" Guid="05cbc1a9-d99a-43b4-9b20-653272a8de98" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Task Manager API' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="fd07903d77726f046cb461dfff8025b6.jpg" xmlns="">07bTrbYDkS0qbhf3SK9NCSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Nuova scheda",
+  "Type": "Screen",
+  "Id": "vgdehhaPiUeEQe6Wrim08g",
+  "Reference": "cMfG_onpPkaPqNMtJiZVbA/vgdehhaPiUeEQe6Wrim08g",
+  "ParentRef": "cMfG_onpPkaPqNMtJiZVbA/4npMHt9vdkmWls20c-ZJRQ",
+  "Created": "2026-03-15T10:34:00.1737923Z",
+  "Updated": "2026-03-15T10:34:00.1737923Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
